@@ -38,7 +38,7 @@ public class parser {
    public CompilationUnit compilationUnit;
 
    public parser() {
-      String fileName = "./target";
+      String fileName = "../target";
       File ffile = new File(fileName);
       File[] fileArray = ffile.listFiles();
 
